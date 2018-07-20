@@ -7,8 +7,8 @@ working in TeX or LaTeX documents.
 
 The original code comes from Karl Yngve Lervåg’s [vimtex][vt], which is a much
 fuller and more mature plugin. You should seriously consider using that
-instead. Another plugin, Guillem Ballesteros’s [vim-autocite][ac], gave me the
-idea to pull out this one feature of [vim-latex][vl]. I’ve adapted, or flat out
+instead. Another plugin, Guillem Ballesteros’s [vim-autocite][vac], gave me the
+idea to pull out this one feature of [vim-latex][vt]. I’ve adapted, or flat out
 copied, most of this plugin from their prior efforts. Anything that works is to
 their credit; anything that doesn’t work is my fault.
 

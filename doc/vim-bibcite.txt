@@ -1,4 +1,4 @@
-*vim-bibcite.txt* bibtex completion for {neo,}vim
+*vim-bibcite.txt* bibtex autocompletion for {neo,}vim
 
 Author: Peter Aronoff <telemachus@arpinum.org>
 
@@ -18,17 +18,18 @@ CONTENTS                                                *vim-bibcite-contents*
 =============================================================================
 INTRODUCTION                                            *vim-bibcite-intro*
 
-This plugin provides completion of citations in TeX and LaTeX documents. The
-completions are drawn from `.bib` files in the same directory as the document.
+This plugin provides autocompletion of citations in TeX and LaTeX documents.
+The completions are drawn from `.bib` files in the same directory as the
+document.
 
 =============================================================================
 USAGE                                                   *vim-bibcite-usage*
 
-vim-bibcite provides completions drawn from any `.bib` files found in the same
-directory as the file the user is editing. Simply start typing a citation and
-enter CTRL-X CTRL-O to trigger a list of possible completions. (See :help
-|i_CTRL-X_CTRL-O| for more details about how to browse the list of possible
-completions.)
+vim-bibcite provides autocompletion based on whatever `.bib` files are found
+in the same directory as the file the user is editing. Simply start typing
+a citation and enter CTRL-X CTRL-O to trigger a list of possible completions.
+(See :help |i_CTRL-X_CTRL-O| for more details about how to browse the list of
+possible completions.)
 
 That's it. No configuration is needed or possible. (See below for
 limitations.)
