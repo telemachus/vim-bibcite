@@ -1,0 +1,90 @@
+*vim-bibcite.txt* bibtex completion for {neo,}vim
+
+Author: Peter Aronoff <telemachus@arpinum.org>
+
+=============================================================================
+CONTENTS                                                *vim-bibcite-contents*
+
+    INTRODUCTION .......................... |vim-bibcite-intro|
+    USAGE .......................... |vim-bibcite-usage|
+    REQUIREMENTS .................... |vim-bibcite-requirements|
+    CONFIGURATION .................. |vim-bibcite-configuration|
+    LIMITATIONS .................... |vim-bibcite-limitations|
+    BUGS ........................... |vim-bibcite-bugs|
+    CONTRIBUTING ................... |vim-bibcite-contributing|
+    THANKS ......................... |vim-bibcite-thanks|
+    CHANGELOG ...................... |vim-bibcite-changelog|
+
+=============================================================================
+INTRODUCTION                                            *vim-bibcite-intro*
+
+This plugin provides completion of citations in TeX and LaTeX documents. The
+completions are drawn from `.bib` files in the same directory as the document.
+
+=============================================================================
+USAGE                                                   *vim-bibcite-usage*
+
+vim-bibcite provides completions drawn from any `.bib` files found in the same
+directory as the file the user is editing. Simply start typing a citation and
+enter CTRL-X CTRL-O to trigger a list of possible completions. (See :help
+|i_CTRL-X_CTRL-O| for more details about how to browse the list of possible
+completions.)
+
+That's it. No configuration is needed or possible. (See below for
+limitations.)
+
+=============================================================================
+REQUIREMENTS                                     *vim-bibcite-requirements*
+
+vim-bibcite requires bibtex. If bibtex isn't found, vim-bibcite does nothing.
+
+=============================================================================
+CONFIGURATION                                   *vim-bibcite-configuration*
+
+vim-bibcite is zero configuration. This may change if I add options to search
+more widely for `.bib` files.
+
+=============================================================================
+LIMITATIONS                                       *vim-bibcite-limitations*
+
+The user can't manually tell vim-bibcite where to find `.bib` files. If `.bib`
+files are not in the exact same directory as the file the user is editing,
+vim-bibcite won't find them.
+
+If people want these features, I am willing to consider adding them. Please
+let me know.
+
+=============================================================================
+BUGS                                                     *vim-bibcite-bugs*
+
+If you find a bug, please let me know by posting an issue here:
+https://github.com/telemachus/vim-bibcite/issues/
+
+=============================================================================
+CONTRIBUTING                                     *vim-bibcite-contributing*
+
+If you have a suggestion or a request, thanks! Please post an issue here:
+https://github.com/telemachus/vim-bibcite/issues/
+
+If you want to contribute code, thanks! Please submit it here:
+https://github.com/telemachus/vim-bibcite/pulls/
+
+=============================================================================
+THANKS                                                 *vim-bibcite-thanks*
+
+I initially based this plugin on vim-autocite, written by Guillem Ballesteros.
+He based that, in turn, on vimtex, written by Karl Yngve Lervåg. Later,
+I reviewed both vim-autocite and vimtex, and I drew code and ideas from both.
+I thank both authors for their work, which made coming up with vim-bibcite
+a snap.
+
+vim-autocite: https://github.com/GCBallesteros/vim-autocite
+vimtex: https://github.com/lervag/vimtex
+
+=============================================================================
+CHANGELOG                                           *vim-bibcite-changelog*
+
+v0.0.1 (July 20, 2018)
+	* Beta release! There is much excitement, amirite?
+
+ vim:tw=78:ts=8:ft=help:norl:
