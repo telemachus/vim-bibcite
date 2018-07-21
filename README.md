@@ -19,6 +19,8 @@ their credit; anything that doesn’t work is my fault.
 
 ```console
 $ cd ~/.vim/bundle
+# Or if you use neovim
+# cd ~/.config/nvim/bundle
 $ git clone https://github.com/telemachus/vim-bibcite.git
 ```
 
