@@ -17,10 +17,10 @@ their credit; anything that doesn’t work is my fault.
 
 ## Pathogen Installation
 
-    ```console
-    $ cd ~/.vim/bundle
-    $ git clone https://github.com/telemachus/vim-bibcite.git
-    ```
+```console
+$ cd ~/.vim/bundle
+$ git clone https://github.com/telemachus/vim-bibcite.git
+```
 
 ## Usage
 
