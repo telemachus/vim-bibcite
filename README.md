@@ -48,8 +48,5 @@ vim-bibcite requires bibtex. If bibtex isn’t installed, the plugin won’t do 
 
 ## Contributions, Requests, or Suggestions
 
-If you would like to contribute, please submit [a pull request][pr]. If you
-have a request or a suggestion, please [submit an issue][issue]. Thanks, in either case!
-
-[pr]: https://github.com/telemachus/vim-bibcite/pulls
-[issue]: https://github.com/telemachus/vim-bibcite/issues
+If you have any suggestions or requests, please email me (peter@aronoff.org) or
+contact me on Twitter (@telemachus).
