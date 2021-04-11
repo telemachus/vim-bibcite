@@ -2,7 +2,7 @@ MIT license
 
 Original work Copyright (c) 2018 Karl Yngve Lervåg and Guillem Ballesteros
 
-Modified work Copyright (c) 2018-2020 Peter Aronoff
+Modified work Copyright (c) 2018-2023 Peter Aronoff
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of
 this software and associated documentation files (the "Software"), to deal in
